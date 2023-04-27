@@ -1,0 +1,103 @@
+/* 重設樣式 */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* 設置頁面背景色和字體 */
+body {
+	background-color: #f9f9f9;
+	font-family: Arial, sans-serif;
+}
+
+/* 設置頁面標題樣式 */
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	padding: 30px 0;
+}
+
+/* 設置導覽欄樣式 */
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* 設置表格樣式 */
+table {
+	margin: 30px auto;
+	width: 80%;
+	border-collapse: collapse;
+}
+
+table th,
+table td {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+table th {
+	background-color: #eee;
+	font-weight: bold;
+}
+
+table td:first-child {
+	text-align: left;
+}
+
+table tfoot td {
+	font-weight: bold;
+}
+
+/* 設置按鈕樣式 */
+button {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #333;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button a{
+	font-size: 16px;
+	color: #fff;
+	background-color: #333;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+	background-color: #555;
+}
